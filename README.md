@@ -5,7 +5,7 @@ Create a table named Planets with the following columns:
 planet_id (integer)
 planet_name (varchar, maximum length 50, not null)
 diameter (decimal)
-distance_from_sun (decimal, not null)
+distance_from_sun (decimal, null)
 Ensure that planet_name column does not allow NULL values, while distance_from_sun can have NULL values.
 
 Altering Tables with Not Null Constraints:
